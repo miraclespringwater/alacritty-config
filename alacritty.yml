@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.89
+  opacity: 0.84
 
   # Startup Mode (changes require restart)
   #
@@ -240,7 +240,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '0x1d2021'
+    #background: '0x1d2021'
+    background: '0x282828'
     foreground: '0xd5c4a1'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
@@ -275,7 +276,6 @@ colors:
   # Whether or not `window.opacity` applies to all cell backgrounds or only to
   # the default background. When set to `true` all cells will be transparent
   # regardless of their background color.
-  #transparent_background_colors: false
   transparent_background_colors: true
 
 # Bell
